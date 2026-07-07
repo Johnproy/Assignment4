@@ -6,8 +6,7 @@ The folder contains the code and the steps to achieve the best score in assignme
 - freq_band_mix.py - contains the script for best score
 - submission.py - submission script to submit the final zip to leaderboard
 - freq_wm3_spatial_mid_a055.zip - final submitted zip file
-- combo_wm7blue_wm6_sota - precomputed base fored candidate
-- forged_spatial_a2.5_b41 - precomputed alternative forged candidate
+- combo_wm7blue_wm6_sota & forged_spatial_a2.5_b41 - intermediate inputs
 
 How to Setup and Run :
 
@@ -31,7 +30,7 @@ How to Setup and Run :
     git clone https://huggingface.co/datasets/SprintML/tml2026_task4 hf
     ```
 6. Check the dataset folders are present and the clean target images has to be at `~/tml26_task4/hf/clean_targets/`
-7. Place the script `freq_band_mix.py` and the precomputed candidates in `~/tml26_task4/`
+7. Place the script `freq_band_mix.py` and the intermediate inputs in `~/tml26_task4/`
 8. Then run the final frequency band residual mixing script,
       ```     
    python freq_band_mix.py \
@@ -53,3 +52,8 @@ How to Setup and Run :
     cd ~/tml26_task4/hf
     python submission.py
     ```
+Note : The generated zip contain exactly 200 PNG.
+
+## Precomputed Candidate Folders
+The final script uses two intermediate candidate folders and the report focuses on the final reproducible refinement stage implemented using the freq_band_mix.py and the intermediate inputs as considered as fixd inputs to final stage.
+
