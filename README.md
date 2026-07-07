@@ -6,7 +6,7 @@ The folder contains the code and the steps to achieve the best score in assignme
 - freq_band_mix.py - contains the script for best score
 - submission.py - submission script to submit the final zip to leaderboard
 - freq_wm3_spatial_mid_a055.zip - final submitted zip file
-- combo_wm7blue_wm6_sota & forged_spatial_a2.5_b41 - intermediate inputs (not essentially needed, the best score can be reproduced using freq_band_mix.py and freq_wm3_spatial_mid_a055.zip alone)
+- combo_wm7blue_wm6_sota & forged_spatial_a2.5_b41 - intermediate inputs
 
 How to Setup and Run :
 
