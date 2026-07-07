@@ -44,7 +44,7 @@ How to Setup and Run :
   --high 0.45 \
   --out freq_wm3_spatial_mid_a055 \
   --zip freq_wm3_spatial_mid_a055.zip
-  ```
+   ```
 9. This will create, `freq_wm3_spatial_mid_a055/ and freq_wm3_spatial_mid_a055.zip`
 10. Then edit the submission file `~/tml26_task4/hf/`, with `FILE_PATH = Path("/home/john/tml26_task4/freq_wm3_spatial_mid_a055.zip")`
 11. Then run the commands,
