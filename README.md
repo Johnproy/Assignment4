@@ -45,6 +45,17 @@ How to Setup and Run :
   --out freq_wm3_spatial_mid_a055 \
   --zip freq_wm3_spatial_mid_a055.zip
    ```
+      ```     
+      cat > run_apex.sh <<'EOF'
+      #!/bin/bash
+      set -eux
+      cd ~/tml26_task3_robustness
+      source .venv/bin/activate
+      echo "The APEX Model"
+      python train_apex.py
+      EOF
+      chmod +x run_apex.sh
+      ```
 9. This will create, `freq_wm3_spatial_mid_a055/ and freq_wm3_spatial_mid_a055.zip`
 10. Then edit the submission file `~/tml26_task4/hf/`, with `FILE_PATH = Path("/home/john/tml26_task4/freq_wm3_spatial_mid_a055.zip")`
 11. Then run the commands,
