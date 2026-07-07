@@ -35,15 +35,15 @@ How to Setup and Run :
 8. Then run the final frequency band residual mixing script,
       ```     
    python freq_band_mix.py \
-  --clean hf/clean_targets \
-  --base combo_wm7blue_wm6_sota \
-  --alt forged_spatial_a2.5_b41 \
-  --wm 3 \
-  --alpha 0.55 \
-  --low 0.10 \
-  --high 0.45 \
-  --out freq_wm3_spatial_mid_a055 \
-  --zip freq_wm3_spatial_mid_a055.zip
+      --clean hf/clean_targets \
+      --base combo_wm7blue_wm6_sota \
+      --alt forged_spatial_a2.5_b41 \
+      --wm 3 \
+      --alpha 0.55 \
+      --low 0.10 \
+      --high 0.45 \
+      --out freq_wm3_spatial_mid_a055 \
+      --zip freq_wm3_spatial_mid_a055.zip
       ```
       
 9. This will create, `freq_wm3_spatial_mid_a055/ and freq_wm3_spatial_mid_a055.zip`
