@@ -33,7 +33,8 @@ How to Setup and Run :
 6. Check the dataset folders are present and the clean target images has to be at `~/tml26_task4/hf/clean_targets/`
 7. Place the script `freq_band_mix.py` and the precomputed candidates in `~/tml26_task4/`
 8. Then run the final frequency band residual mixing script,
-   ```
+
+      ```     
    python freq_band_mix.py \
   --clean hf/clean_targets \
   --base combo_wm7blue_wm6_sota \
@@ -44,17 +45,6 @@ How to Setup and Run :
   --high 0.45 \
   --out freq_wm3_spatial_mid_a055 \
   --zip freq_wm3_spatial_mid_a055.zip
-   ```
-      ```     
-      cat > run_apex.sh <<'EOF'
-      #!/bin/bash
-      set -eux
-      cd ~/tml26_task3_robustness
-      source .venv/bin/activate
-      echo "The APEX Model"
-      python train_apex.py
-      EOF
-      chmod +x run_apex.sh
       ```
 9. This will create, `freq_wm3_spatial_mid_a055/ and freq_wm3_spatial_mid_a055.zip`
 10. Then edit the submission file `~/tml26_task4/hf/`, with `FILE_PATH = Path("/home/john/tml26_task4/freq_wm3_spatial_mid_a055.zip")`
