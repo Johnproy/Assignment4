@@ -55,5 +55,5 @@ How to Setup and Run :
 Note : The generated zip contain exactly 200 PNG.
 
 ## Precomputed Candidate Folders
-The final script uses two intermediate candidate folders and the report focuses on the final reproducible refinement stage implemented using the freq_band_mix.py and the intermediate inputs as considered as fixd inputs to final stage.
+The final script uses two intermediate candidate folders and the report focuses on the final reproducible refinement stage implemented using the `freq_band_mix.py` and the intermediate inputs as considered as fixed inputs to final stage.
 
